@@ -1,23 +1,33 @@
-import { BsGrid3X3GapFill } from 'react-icons/bs';
-import { DiJavascript1 } from "react-icons/di";
 import Head from 'next/head'
-import Icon from '../components/icon'
+import ExperienceItem from '../components/experienceitem'
+import useSWR from 'swr';
+import styles from '../styles/Icons.module.css'
+
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Lanugages() {
+
+  const { data, error } = useSWR('/api/languagedata', fetcher);
+
+
+  if (error) return <div>Failed to load</div>
+  if(!data) return <div>Loading...</div>;
+
     return (
-      <div>
+      <div className={styles.container}>
         <Head>
           <title>My page title</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-            
         </Head>
+ 
+      {
+        data.languages.map(language => (
+          <ExperienceItem key={language.id} language={language}/>
+        ))
+      }
 
 
-      <Icon src='docker/docker-plain-wordmark.svg'/>
-
-      <Icon src='csharp/csharp-original.svg'/>
-          
 
     </div>
     )

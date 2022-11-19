@@ -1,0 +1,37 @@
+{
+    "languages": 
+    [
+        {
+            "id": 1,
+            "title": "Docker",
+            "subtitle": "A subtitle",
+            "src": "docker/docker-plain-wordmark.svg",
+            "level": "Moderate",
+            "blurb": "Moderate level of experience using Docker."
+        },
+        {
+            "id": 2,
+            "title": "C#",
+            "subtitle": "A subtitle",
+            "src": "csharp/csharp-original.svg",
+            "level": "Moderate",
+            "blurb": "I have used C# in several different projects throughout university. Projects range from using .NET to make a .aspx web-commerce store, a mobile app in .NET MAUI and developing a game with Unity."
+        },
+        {
+            "id": 4,
+            "title": "C++",
+            "subtitle": "A subtitle",
+            "src": "cplusplus/cplusplus-original.svg",
+            "level": "Low to Moderate",
+            "blurb": ""
+        },
+        {
+            "id": 5,
+            "title": "Java",
+            "subtitle": "A subtitle",
+            "src": "java/java-original-wordmark.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        }
+    ]
+}

@@ -1,4 +1,38 @@
+.container{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+    margin: 0 3em;
+}
+
+.language-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+    border: 3px solid var(--hover);
+    background-color: var(--hover-bg);
+    border-radius: 10px;
+}
+
 .icon{
+    margin: 1em 0;
+    align-self: center;
     height: auto;
-    width: 150px;
+    width: 100px;
+}
+.text{
+    padding: 0;
+    margin: 1em 20px;
+}
+.text div{
+    margin: 10px 0;
+}
+.text h3, .text span{
+    color: var(--active);
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
 }
