@@ -6,7 +6,7 @@
             "url": "/projects/test",
             "img-path": "/unreal/UE4_logo.jpg",
             "title": "Unreal Engine Plugin",
-            "subtitle": "University: Year 4",
+            "subtitle": "University: 4th Year",
             "blurb": "This project was a thingy",
             "test": "test",
             "tags": ["UE4", "C++", "C++ Plugin"]

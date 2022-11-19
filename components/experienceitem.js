@@ -7,6 +7,8 @@ const ExperienceItem = ({language}) => {
 
   return (
     <div className={styles['language-container']}>
+        <div className={styles.banner}>{language.title}</div>
+
         <Icon src={language.src}/>
 
         <div className={styles.text}>

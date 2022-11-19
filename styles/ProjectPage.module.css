@@ -1,0 +1,35 @@
+.container{
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.project{
+    width: 95ch;
+    background-color: var(--hover-bg);
+    padding: 20px 20px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.img-container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    border-radius: 15px;
+}
+.caption{
+    align-self: center;
+    font-style: italic;
+}
