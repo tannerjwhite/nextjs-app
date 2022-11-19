@@ -1,0 +1,24 @@
+html,
+body {
+  background-color: rgb(26, 25, 25);
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  --hover: #9156F0;
+  --hover-bg: #0f0a10;
+  --active: #F10086;
+  --link-hover: #F582A7;
+}

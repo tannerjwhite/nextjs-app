@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 3em;
+    color: white;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2em;
+}
+
+.nav-items h1 :hover{
+    color: var(--link-hover);
+}
+
+.active{
+    color: var(--active);
+}
