@@ -1,9 +1,21 @@
 import styles from '../../styles/ProjectPage.module.css'
+import { HiArrowLeft } from 'react-icons/hi';
+import Router from 'next/router'
 
 export default function Test() {
 
+    const handleClick = () => {
+        Router.push('/projects')
+    }
+
     return (
       <div className={styles.container}>
+        
+        <div onClick={handleClick} className={styles.return}>
+            <span className={styles.icon}><HiArrowLeft /></span> Return
+        </div>
+
+
         <div className={styles.project}>
             <h1>A Long Title</h1>
             

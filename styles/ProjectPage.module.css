@@ -4,14 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: auto;
     font-size: 1.25rem;
     line-height: 1.5;
     color: white;
+
+    align-self: center;
 }
 
 .project{
-    width: 95ch;
+    max-width: 95ch;
+    min-width: 65ch;
     background-color: var(--hover-bg);
     padding: 20px 20px;
     border-radius: 15px;
@@ -32,4 +35,18 @@
 .caption{
     align-self: center;
     font-style: italic;
+}
+.return{
+    margin: 0 0 0.5em 1em;
+    align-self: flex-start;
+}
+.return:hover {
+    color: var(--link-hover);
+    cursor: pointer;
+}
+
+
+.icon{
+    vertical-align: baseline;
+    margin-top: 1px;
 }

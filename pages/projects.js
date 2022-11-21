@@ -14,7 +14,7 @@ export default function Projects() {
   if(!data) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles['project-card-list']}>
 
         {
