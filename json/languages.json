@@ -2,12 +2,12 @@
     "languages": 
     [
         {
-            "id": 1,
-            "title": "Docker",
+            "id": 12,
+            "title": "Python",
             "subtitle": "A subtitle",
-            "src": "docker/docker-plain-wordmark.svg",
-            "level": "Moderate",
-            "blurb": "Moderate level of experience using Docker."
+            "src": "python/python-original.svg",
+            "level": "Moderate to High",
+            "blurb": ""
         },
         {
             "id": 2,
@@ -30,6 +30,94 @@
             "title": "Java",
             "subtitle": "A subtitle",
             "src": "java/java-original-wordmark.svg",
+            "level": "Moderate to High",
+            "blurb": "I have used Java extensiviely during my time at university. "
+        },
+        {
+            "id": 9,
+            "title": "Javascript",
+            "subtitle": "A subtitle",
+            "src": "javascript/javascript-original.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 1,
+            "title": "Docker",
+            "subtitle": "A subtitle",
+            "src": "docker/docker-plain-wordmark.svg",
+            "level": "Moderate",
+            "blurb": "Moderate level of experience using Docker."
+        },
+        {
+            "id": 6,
+            "title": "AWS",
+            "subtitle": "A subtitle",
+            "src": "amazonwebservices/amazonwebservices-original.svg",
+            "level": "Moderate",
+            "blurb": ""
+        },
+        {
+            "id": 7,
+            "title": "Flask",
+            "subtitle": "A subtitle",
+            "src": "flask/flask-original.svg",
+            "level": "Moderate",
+            "blurb": ""
+        },
+        {
+            "id": 8,
+            "title": "Git",
+            "subtitle": "A subtitle",
+            "src": "git/git-original.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 10,
+            "title": "LaTex",
+            "subtitle": "A subtitle",
+            "src": "latex/latex-original.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 11,
+            "title": "OpenGL",
+            "subtitle": "A subtitle",
+            "src": "opengl/opengl-plain.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 13,
+            "title": "MSSQL",
+            "subtitle": "A subtitle",
+            "src": "microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 14,
+            "title": "Unity",
+            "subtitle": "A subtitle",
+            "src": "unity/unity-original-wordmark.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 15,
+            "title": "Unreal Engine",
+            "subtitle": "A subtitle",
+            "src": "unrealengine/unrealengine-original.svg",
+            "level": "Moderate to High",
+            "blurb": ""
+        },
+        {
+            "id": 16,
+            "title": "MongoDB",
+            "subtitle": "A subtitle",
+            "src": "mongodb/mongodb-original-wordmark.svg",
             "level": "Moderate to High",
             "blurb": ""
         }
