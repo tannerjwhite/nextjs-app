@@ -19,7 +19,7 @@ export default function Projects() {
 
         {
           data.projects.map(project => (
-            <ProjectCard key={project.id} project={project}/>
+            <ProjectCard key={project.id} project={project} cssStyle={'project-card-container'}/>
           ))
         }
 

@@ -8,7 +8,6 @@
     font-size: 1.25rem;
     line-height: 1.5;
     color: white;
-
     align-self: center;
 }
 
@@ -43,10 +42,4 @@
 .return:hover {
     color: var(--link-hover);
     cursor: pointer;
-}
-
-
-.icon{
-    vertical-align: baseline;
-    margin-top: 1px;
 }

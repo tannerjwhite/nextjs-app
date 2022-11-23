@@ -14,6 +14,16 @@
         {
             "id": 2,
             "url": "/projects/test",
+            "img-path": "/unreal/test.png",
+            "title": "A Test Project",
+            "subtitle": "University: Year 4",
+            "blurb": "This project was a thingy",
+            "test": "test",
+            "tags": ["UE4", "C++", "C++ Plugin"]
+        },
+        {
+            "id": 3,
+            "url": "/projects/test",
             "img-path": "/unreal/UE4_logo.jpg",
             "title": "Unreal Engine Plugin",
             "subtitle": "University: Year 4",
@@ -22,7 +32,7 @@
             "tags": ["UE4", "C++", "C++ Plugin"]
         },
         {
-            "id": 3,
+            "id": 4,
             "url": "/projects/test",
             "img-path": "/unreal/UE4_logo.jpg",
             "title": "Unreal Engine Plugin",

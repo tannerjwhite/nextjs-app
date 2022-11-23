@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    align-items: center;
+    max-width: min-content;
+}
+.wrapper {
+    overflow: hidden;
+  }
+  
+  .wrapper:last-child, .wrapper:hover {
+      overflow: visible;
+  }

@@ -1,7 +1,7 @@
 import Router from 'next/router'
 import styles from '../styles/Projects.module.css'
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({project, cssStyle}) => {
 
     const handleClick = () => {
         console.log([project.title]);
@@ -9,7 +9,7 @@ const ProjectCard = ({project}) => {
     }
 
     return (
-        <div className={styles['project-card-container']} onClick={() => handleClick()}>
+        <div className={styles[cssStyle]} onClick={() => handleClick()}>
 
             <h1>{project.title}</h1>
             <h3>{project.subtitle}</h3>

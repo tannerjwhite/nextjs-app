@@ -12,7 +12,7 @@ export default function Test() {
       <div className={styles.container}>
         
         <div onClick={handleClick} className={styles.return}>
-            <span className={styles.icon}><HiArrowLeft /></span> Return
+            <span className={styles.icon}><HiArrowLeft size={32}/></span>
         </div>
 
 
