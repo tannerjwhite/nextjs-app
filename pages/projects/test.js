@@ -1,6 +1,10 @@
 import styles from '../../styles/ProjectPage.module.css'
 import { HiArrowLeft } from 'react-icons/hi';
 import Router from 'next/router'
+import { NextSeo } from 'next-seo';
+
+import Image from 'next/image'
+import testPic from '../../public/unreal/UE4_logo.jpg'
 
 export default function Test() {
 
@@ -10,7 +14,10 @@ export default function Test() {
 
     return (
       <div className={styles.container}>
-        
+        <NextSeo
+            title="About Us, or just any title that you wish"
+            description="Then with a short description here."
+            />
         <div onClick={handleClick} className={styles.return}>
             <span className={styles.icon}><HiArrowLeft size={32}/></span>
         </div>
@@ -35,7 +42,12 @@ export default function Test() {
             </p>
 
             <div className={styles['img-container']}>
-                <img className={styles.img} src="/unreal/UE4_logo.jpg"/>
+                {
+                    //<img className={styles.img} src="/unreal/UE4_logo.jpg"/>
+                }     
+                <Image 
+                    src={testPic}
+                    alt="Picture of the author"/>
                 <span className={styles.caption}>Caption: Test caption</span>
             </div>
 

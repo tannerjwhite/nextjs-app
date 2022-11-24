@@ -8,8 +8,8 @@
             "title": "Unreal Engine Plugin",
             "subtitle": "University: 4th Year",
             "blurb": "This project was a thingy",
-            "test": "test",
-            "tags": ["UE4", "C++", "C++ Plugin"]
+            "tags": ["UE4", "C++", "C++ Plugin"],
+            "showcase": true
         },
         {
             "id": 2,
@@ -18,28 +18,28 @@
             "title": "A Test Project",
             "subtitle": "University: Year 4",
             "blurb": "This project was a thingy",
-            "test": "test",
-            "tags": ["UE4", "C++", "C++ Plugin"]
+            "tags": ["UE4", "C++", "C++ Plugin"],
+            "showcase": true
         },
         {
             "id": 3,
             "url": "/projects/test",
-            "img-path": "/unreal/UE4_logo.jpg",
+            "img-path": "/unreal/test1.png",
             "title": "Unreal Engine Plugin",
             "subtitle": "University: Year 4",
             "blurb": "This project was a thingy",
-            "test": "test",
-            "tags": ["UE4", "C++", "C++ Plugin"]
+            "tags": ["UE4", "C++", "C++ Plugin"],
+            "showcase": false
         },
         {
             "id": 4,
             "url": "/projects/test",
-            "img-path": "/unreal/UE4_logo.jpg",
+            "img-path": "/unreal/test.gif",
             "title": "Unreal Engine Plugin",
             "subtitle": "University: Year 4",
             "blurb": "This project was a thingy",
-            "test": "test",
-            "tags": ["UE4", "C++", "C++ Plugin"]
+            "tags": ["UE4", "C++", "C++ Plugin"],
+            "showcase": false
         }
     ]
 }

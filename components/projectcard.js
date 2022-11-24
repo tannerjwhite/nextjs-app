@@ -1,6 +1,9 @@
 import Router from 'next/router'
 import styles from '../styles/Projects.module.css'
 
+import Image from 'next/image'
+import testPic from '../public/unreal/UE4_logo.jpg'
+
 const ProjectCard = ({project, cssStyle}) => {
 
     const handleClick = () => {
@@ -8,12 +11,26 @@ const ProjectCard = ({project, cssStyle}) => {
         Router.push(project.url)
     }
 
+
+
     return (
         <div className={styles[cssStyle]} onClick={() => handleClick()}>
 
             <h1>{project.title}</h1>
-            <h3>{project.subtitle}</h3>
-            <img className={styles['project-img']} src={project["img-path"]}/>
+            <h2>{project.subtitle}</h2>
+
+            <div className={styles['img-container']}>
+                <Image 
+                    src={project["img-path"]}
+                    alt='Unreal Engine 4 Logo'
+                    layout={'fill'} 
+                    sizes="(width: 100%)"
+                    objectFit={'contain'}
+                    className={styles['project-img']}
+                />
+            </div>
+
+
 
             
             <div className={styles['card-blurb']}>
@@ -22,8 +39,8 @@ const ProjectCard = ({project, cssStyle}) => {
 
             <div className={styles['tags-container']}>
                 {
-                    project.tags.map(tag => (
-                    <span className={styles.tag}>
+                    project.tags.map( tag => (
+                    <span key={tag} className={styles.tag}>
                         #{tag}
                     </span>))
                 }

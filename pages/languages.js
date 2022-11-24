@@ -16,7 +16,7 @@ export default function Lanugages() {
     return (
       <div className={styles.container}>
         <Head>
-          <title>My page title</title>
+          <title>Tanner White | Languages</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
         </Head>

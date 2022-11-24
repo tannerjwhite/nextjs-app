@@ -13,13 +13,8 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Carousel() {
 
-    const { data, error } = useSWR('/api/projectdata', fetcher);
+    const { data, error } = useSWR('/api/projectshowcase', fetcher);
 
-
-    const TestFunc = () => {
-        console.log('test')
-        console.log(data.projects[0])
-    }
     if (error) return <div>Failed to load</div>
     if(!data) return <div>Loading...</div>;
 
@@ -37,15 +32,12 @@ export default function Carousel() {
                 }}
                 modules={[Autoplay, EffectCube, Pagination]}
                 className="mySwiper"
-                onActiveIndexChange={() => TestFunc()}
             >
-
                 {
                     data.projects.map(project => (
-                        <SwiperSlide>
-                            <ProjectCard key={project.id} project={project} cssStyle={'home-page-card'}/>
+                        <SwiperSlide key={project.id}>
+                            <ProjectCard project={project} cssStyle={'home-page-card'}/>
                         </SwiperSlide>
-                        
                     ))
                 }
             </Swiper>
