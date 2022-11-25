@@ -3,11 +3,11 @@
     [
         {
             "id": 1,
-            "url": "/projects/test",
+            "url": "/projects/xapi",
             "img-path": "/unreal/UE4_logo.jpg",
             "title": "Unreal Engine Plugin",
             "subtitle": "University: 4th Year",
-            "blurb": "This project was a thingy",
+            "blurb": "I developed an experimental xAPI plugin for Unreal Engine 4. ",
             "tags": ["UE4", "C++", "C++ Plugin"],
             "showcase": true
         },
@@ -25,7 +25,7 @@
             "id": 3,
             "url": "/projects/test",
             "img-path": "/unreal/test1.png",
-            "title": "Unreal Engine Plugin",
+            "title": "A Test Project",
             "subtitle": "University: Year 4",
             "blurb": "This project was a thingy",
             "tags": ["UE4", "C++", "C++ Plugin"],
