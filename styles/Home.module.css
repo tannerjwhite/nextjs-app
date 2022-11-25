@@ -30,7 +30,7 @@
   gap: 1em;
 }
 .project-button{
-  color: white;
+  color: var(--background);
   padding: 2px 6px;
   border-radius: 15px;
   background-color: var(--active);
@@ -38,14 +38,15 @@
 }
 .project-button:hover{
   cursor: pointer;
+  background-color: var(--link-hover);
 }
 @keyframes pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 2px 2px rgba(79, 39, 77, 0.2);
+    box-shadow: 0 3px 3px rgba(79, 39, 77, 0.4);
   }
   100% {
     transform: scale(1.2, 1.2);
-    box-shadow: 0 8px 8px rgba(79, 39, 77, 0.88);
+    box-shadow: 0 8px 9px rgba(79, 39, 77, 0.95);
   }
 }

@@ -61,4 +61,5 @@
     background-color: var(--active);
     border-radius: 12px;
     text-decoration: solid;
+    color: var(--background);
 }

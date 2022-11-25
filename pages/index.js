@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import { SocialIcon } from 'react-social-icons';
 import Carousel from '../components/carousel'
 import Router from 'next/router'
+import { NextSeo } from 'next-seo';
 
 export default function Home() {
 
@@ -12,6 +13,8 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+              <NextSeo title="Work In Progress | Tanner White"
+                description="A simple little nextjs app to showcase projects completed at university."/>
       <div className={styles.left}>
         
         <div className={styles.name}>
@@ -22,6 +25,7 @@ export default function Home() {
           I am a graduate <span className={styles.accent}>Software Engineer</span>. I completed my studies at The University of Newcaslte. 
           I have developed this site to be a showcase of projects completed during my studies. 
         </p>
+        <p>This site is still being developed.</p>
 
       </div>
     

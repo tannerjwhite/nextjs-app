@@ -10,7 +10,6 @@
     color: white;
     align-self: center;
 }
-
 .project{
     max-width: 95ch;
     min-width: 65ch;
@@ -22,14 +21,16 @@
     flex-direction: column;
     align-content: flex-start;
 }
-
 .img-container{
     align-self: center;
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 .img{
     border-radius: 15px;
+    max-width: 100%; 
+    height: auto;
 }
 .caption{
     align-self: center;

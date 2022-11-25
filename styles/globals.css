@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #1a1919;
+  background-color: var(--background);
   color: white;
   padding: 0;
   margin: 0;
@@ -19,11 +19,11 @@ a {
 }
 
 :root{
+  --background: #1a1919;
   --hover: #9156F0;
   --hover-bg: #1f1321;
-  --active: #F10086;
+  --active: #FF7AC3;
   --link-hover: #df6b90;
-  --dsfsdfsdf: #661772;
 }
 
 
