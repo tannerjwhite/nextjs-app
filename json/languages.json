@@ -7,7 +7,7 @@
             "subtitle": "A subtitle",
             "src": "python/python-original.svg",
             "level": "Moderate to High",
-            "blurb": ""
+            "blurb": "I have used python in many different projects. These include creating an api using flask, implementing machine learning using libraries and simple scripts."
         },
         {
             "id": 2,
@@ -23,7 +23,7 @@
             "subtitle": "A subtitle",
             "src": "cplusplus/cplusplus-original.svg",
             "level": "Low to Moderate",
-            "blurb": ""
+            "blurb": "I have some experience using C++. Most notably using it to develop and plugin for UE4 and implementing data structures in a 1st Year university course."
         },
         {
             "id": 5,
@@ -31,31 +31,31 @@
             "subtitle": "A subtitle",
             "src": "java/java-original-wordmark.svg",
             "level": "Moderate to High",
-            "blurb": "I have used Java extensiviely during my time at university. "
+            "blurb": "I have used Java extensively during my time at university. Projects range from simple command-line apps, JSP's  and a static code analysis tool. "
         },
         {
             "id": 9,
             "title": "Javascript",
             "subtitle": "A subtitle",
             "src": "javascript/javascript-original.svg",
-            "level": "Moderate to High",
-            "blurb": ""
+            "level": "Moderate",
+            "blurb": "I have used Javascript sparingly throughout university. Most notable project involving it is developing this website using Nextjs."
         },
         {
             "id": 1,
             "title": "Docker",
             "subtitle": "A subtitle",
             "src": "docker/docker-plain-wordmark.svg",
-            "level": "Moderate",
-            "blurb": "Moderate level of experience using Docker."
+            "level": "Low to Moderate",
+            "blurb": "Moderate level of experience using Docker. This website is containerised using nextjs template Dockerfile and deployed to Google Cloud Run which allows for easy CI/CD."
         },
         {
             "id": 6,
             "title": "AWS",
             "subtitle": "A subtitle",
             "src": "amazonwebservices/amazonwebservices-original.svg",
-            "level": "Moderate",
-            "blurb": ""
+            "level": "Low to Moderate",
+            "blurb": "At my time with Hunter Orbit I have experience using multiple different services inside of AWS."
         },
         {
             "id": 7,
@@ -63,7 +63,7 @@
             "subtitle": "A subtitle",
             "src": "flask/flask-original.svg",
             "level": "Moderate",
-            "blurb": ""
+            "blurb": "I used flask to help develop an api back-end for a flight-booking webapp in 3rd Year at university."
         },
         {
             "id": 8,
@@ -71,7 +71,7 @@
             "subtitle": "A subtitle",
             "src": "git/git-original.svg",
             "level": "Moderate to High",
-            "blurb": ""
+            "blurb": "Life saver."
         },
         {
             "id": 10,
@@ -79,15 +79,15 @@
             "subtitle": "A subtitle",
             "src": "latex/latex-original.svg",
             "level": "Moderate to High",
-            "blurb": ""
+            "blurb": "I used LaTex to created multiple documents throughout university most notably my thesis document."
         },
         {
             "id": 11,
             "title": "OpenGL",
             "subtitle": "A subtitle",
             "src": "opengl/opengl-plain.svg",
-            "level": "Moderate to High",
-            "blurb": ""
+            "level": "Low to Moderate",
+            "blurb": "Used to create a game engine in Java."
         },
         {
             "id": 13,
@@ -95,31 +95,31 @@
             "subtitle": "A subtitle",
             "src": "microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg",
             "level": "Moderate to High",
-            "blurb": ""
-        },
-        {
-            "id": 14,
-            "title": "Unity",
-            "subtitle": "A subtitle",
-            "src": "unity/unity-original-wordmark.svg",
-            "level": "Moderate to High",
-            "blurb": ""
-        },
-        {
-            "id": 15,
-            "title": "Unreal Engine",
-            "subtitle": "A subtitle",
-            "src": "unrealengine/unrealengine-original.svg",
-            "level": "Moderate to High",
-            "blurb": ""
+            "blurb": "MSSQL is my main exposure to SQL. Used in many several different apps."
         },
         {
             "id": 16,
             "title": "MongoDB",
             "subtitle": "A subtitle",
             "src": "mongodb/mongodb-original-wordmark.svg",
-            "level": "Moderate to High",
-            "blurb": ""
+            "level": "Moderate",
+            "blurb": "Only use of a NoSQL."
+        },
+        {
+            "id": 14,
+            "title": "Unity",
+            "subtitle": "A subtitle",
+            "src": "unity/unity-original-wordmark.svg",
+            "level": "Low to Moderate",
+            "blurb": "Only exposure to Unity is developing a game in my final year at university."
+        },
+        {
+            "id": 15,
+            "title": "Unreal Engine",
+            "subtitle": "A subtitle",
+            "src": "unrealengine/unrealengine-original.svg",
+            "level": "Low to Moderate",
+            "blurb": "Very limited experience in UE4 while developing a plugin to implement xAPI features."
         }
     ]
 }

@@ -5,20 +5,20 @@
             "id": 1,
             "url": "/projects/xapi",
             "img-path": "/unreal/UE4_logo.jpg",
-            "title": "Unreal Engine Plugin",
+            "title": "Unreal Engine 4 Plugin",
             "subtitle": "University: 4th Year",
-            "blurb": "I developed an experimental xAPI plugin for Unreal Engine 4. ",
-            "tags": ["UE4", "C++", "C++ Plugin"],
+            "blurb": "For my individual final year project, I developed an experimental xAPI plugin for Unreal Engine 4. ",
+            "tags": ["UE4", "C++", "UE4 Plugin"],
             "showcase": true
         },
         {
             "id": 2,
-            "url": "/projects/test",
-            "img-path": "/unreal/test.png",
-            "title": "A Test Project",
+            "url": "/projects/unity",
+            "img-path": "/unity/logo.jpg",
+            "title": "Game made with Unity",
             "subtitle": "University: Year 4",
-            "blurb": "This project was a thingy",
-            "tags": ["UE4", "C++", "C++ Plugin"],
+            "blurb": "For the final year group work component a space-exploration themed game was developed using Unity.",
+            "tags": ["Unity", "C#", "Game Dev", "Group Work"],
             "showcase": true
         },
         {

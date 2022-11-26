@@ -18,7 +18,7 @@ export default function Home() {
       <div className={styles.left}>
         
         <div className={styles.name}>
-          Hi<span className={styles.accent}>,</span> my name is Tanner<span className={styles.accent}>.</span>
+          Hi<span className={styles.accent}>, </span>my name is Tanner<span className={styles.accent}>.</span>
         </div>
         
         <p className={styles.blurb}>

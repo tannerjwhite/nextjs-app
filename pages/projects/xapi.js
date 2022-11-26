@@ -17,7 +17,7 @@ export default function Page() {
     return (
       <div className={styles.container}>
         <NextSeo title="Unreal Engine 4 | Experimental xAPI Plugin"
-                description="A little write-up about my final year indivdual project, which was to develop an experimental xAPI plugin for the Australian Border Force."/>
+                description="A little write-up about my final year individual project, which was to develop an experimental xAPI plugin for the Australian Border Force."/>
 
         <div onClick={handleClick} className={styles.return}>
             <span className={styles.icon}><HiArrowLeft size={32}/></span>
@@ -37,13 +37,14 @@ export default function Page() {
                     src={statement}
                     alt="Picture of the author"
                     className={styles.img}/>
-                <span className={styles.caption}>Caption: xAPI Statement</span>
+                <span className={styles.caption}>Caption: Example of an xAPI Statement</span>
             </div>
 
 
             <p>
                 The purpose of undertaking this project is due to the fact that UE4 does not support xAPI out of the box. 
-                xAPI is a mechanism used predominately inside of a serious game or simulation training, which UE4 is heavily used to develop such environments.  
+                xAPI is a mechanism used predominately inside of a serious game or simulation training, which UE4 is heavily used to develop such environments. 
+                The plugin works by sending xAPI statement via HTTP POST request to a learning record store where they are permanently stored.   
             </p>
 
             <p>
