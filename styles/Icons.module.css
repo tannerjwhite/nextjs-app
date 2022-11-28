@@ -10,7 +10,7 @@
 .language-container{
     display: flex;
     flex-direction: column;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 1.5;
     color: white;
     border: 3px solid var(--hover);

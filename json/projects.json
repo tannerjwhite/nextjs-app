@@ -16,7 +16,7 @@
             "url": "/projects/unity",
             "img-path": "/unity/logo.jpg",
             "title": "Game made with Unity",
-            "subtitle": "University: Year 4",
+            "subtitle": "University: 4th Year",
             "blurb": "For the final year group work component a space-exploration themed game was developed using Unity.",
             "tags": ["Unity", "C#", "Game Dev", "Group Work"],
             "showcase": true
@@ -24,18 +24,28 @@
         {
             "id": 3,
             "url": "/projects/test",
-            "img-path": "/unreal/test1.png",
-            "title": "A Test Project",
-            "subtitle": "University: Year 4",
-            "blurb": "This project was a thingy",
-            "tags": ["UE4", "C++", "C++ Plugin"],
+            "img-path": "/flightpub/fp.gif",
+            "title": "Flight Booking Webapp",
+            "subtitle": "University: 3rd Year",
+            "blurb": "This was a year long project to develop a full-stack flight booking web application.",
+            "tags": ["Angular", "Typescript", "Flask", "API", "SQL"],
             "showcase": false
         },
         {
             "id": 4,
             "url": "/projects/test",
+            "img-path": "/opengl/thumbnail.gif",
+            "title": "OpenGL Game Engine",
+            "subtitle": "University: 3rd Year",
+            "blurb": "Apart of a computer graphics course the major project was to create an Olympic event in a engine developed using OpenGL.",
+            "tags": ["Java", "OpenGL"],
+            "showcase": false
+        },
+        {
+            "id": 5,
+            "url": "/projects/test",
             "img-path": "/unreal/test.gif",
-            "title": "Unreal Engine Plugin",
+            "title": "Test Project",
             "subtitle": "University: Year 4",
             "blurb": "This project was a thingy",
             "tags": ["UE4", "C++", "C++ Plugin"],

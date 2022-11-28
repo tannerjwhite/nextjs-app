@@ -1,3 +1,4 @@
+import { AutoTextSize } from 'auto-text-size'
 import Router from 'next/router'
 import styles from '../styles/Projects.module.css'
 
@@ -16,8 +17,12 @@ const ProjectCard = ({project, cssStyle}) => {
     return (
         <div className={styles[cssStyle]} onClick={() => handleClick()}>
 
-            <h1>{project.title}</h1>
-            <h2>{project.subtitle}</h2>
+            <div className={styles['heading-container']}>
+                <AutoTextSize maxFontSizePx={36}>{project.title}</AutoTextSize>
+            </div>
+            <div className={styles['subheading-container']}>
+                <h2>{project.subtitle}</h2>
+            </div>
 
             <div className={styles['img-container']}>
                 <Image 
